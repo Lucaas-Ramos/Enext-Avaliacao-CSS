@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Desafio de CSS Enext">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
+  <title>Desafio CSS - ENEXT</title>
+</head>
+
+<header>
+    <div>
+      <img width="150" src="./assets/logo.png" alt="logo-enext">
+    </div>
+  
+</header>
+
+<body>
+      <div class="product-content">
+        <div class="product-heading">
+          <h1 class="product-title"><strong><u>Livro - Líderes Digitais: Um ensaio sobre como gerir negócios digitais na visão de 21 líderes brasileiros</u></strong></h1>
+          <p class="product-brand"> Pela primeira vez, 21 dos mais influentes líderes do mercado digital brasileiro estão reunidos em um livro para desvendar a complexidade desse setor. Nas entrevistas exclusivas que obteve dessas lideranças, Gabriel Lima buscou explicações para questionamentos, até então, sem respostas evidentes
+
+            Como é ser líder dos negócios digitais brasileiros ao longo da segunda década do século XXI? Como as organizações devem ser conduzidas em meio a tantas indeterminações existenciais e operacionais?
+            
+            Do ponto de vista competitivo, quem deseja se diferenciar e age de forma estratégica tem a capacidade de conquistar cargos de liderança nas corporações, mas apenas o desejo de chegar lá é insuficiente. Na atual configuração de mundo, em que a distinção entre online e off-line desaparece, é preciso desenvolver adequadas competências técnicas e emocionais para saber como colocá-las em prática. Ao revelar a experiência de quem faz esse setor acontecer, este livro é uma oportunidade para quem quer se juntar aos negócios digitais ou para aqueles que já trabalham na área e planejam a evolução de suas carreiras.</p>
+          </div>
+        <hr></hr>
+
+        <div class="content">
+          <div class="slides">
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+
+        <div class="slide s1">
+              <img src="./assets/book.jpg" alt="livro1">
+              </div>
+        <div class="slide">
+              <img src="./assets/book2.jpg" alt="livro2">
+              </div>
+        <div class="slide">      
+              <img  src="./assets/book1.png" alt="livro3">
+              </div>
+        <div class="slide">
+              <img  src="./assets/book3.jpg" alt="texto1">
+              </div>
+        <div class="slide">
+              <img src="./assets/book4.jpg" alt="texto2">
+            </div>
+        </div>
+        </div>
+
+        <div class="navigation">
+          <label class="bar" for="slide1"></label>
+          <label class="bar" for="slide2"></label>
+          <label class="bar" for="slide3"></label>
+          <label class="bar" for="slide4"></label>
+          <label class="bar" for="slide5"></label>
+        </div>
+      
+
+        <div class="product-prices">
+          <div class="was-price">
+            <span>De: </span> <del>R$ 59,90</del>
+          </div>
+          <div class="is-price">
+            <span>Por: </span> <span><strong>R$ 35,19</strong></span>
+          </div>
+          <p>
+          Em até <span>10x</span> sem juros
+          </p>
+        </div>
+
+        <div class="product-buy-section">
+          <div class="product-quantity">
+            <button>-</button>
+            <input type="number"/>
+            <button>+</button>
+          </div>
+          <div class="product-buy-button">
+            <button>
+              <img height="20" width="20" src="./assets/shopping-cart.png" alt="cart-image">
+              Comprar
+            </button>
+          </div>
+        </div>
+
+        <div class="product-freight">
+          <h2>
+            <img width="32" height="32" src="./assets/truck.png" alt="truck-freight">
+            <span>Consultar prazo e valor do frete</span>
+          </h2>
+          <div>
+            <div>
+              <input type="text" placeholder="00000000" type="number" maxlength="8">
+              <button>Ok</button>
+            </div>
+            <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" rel="noreferrer" target="_blank">
+              Não sei o CEP</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-specifications-wrapper">
+      <hr></hr>
+      <h2>Detalhes do produto</h2>
+      <table id="techical-details" class="techical-details" role="presentation">
+        <tbody>
+          <tr>
+            <th>
+              Versões
+            </th>
+            <td>
+              ‎Capa comum e Kindle
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Idioma
+            </th>
+            <td>
+              ‎Português
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Capa comum
+            </th>
+            <td>
+              ‎352 páginas
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Dimensões
+            </th>
+            <td>
+              ‎22.86 x 16 x 2.03 cm
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Nº de páginas (Kindle)
+            </th>
+            <td>
+              ‎589 páginas
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Editora
+            </th>
+            <td>
+              ‎Alta Books (30 julho 2020)
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Tamanho do app (Kindle)
+            </th>
+            <td>
+              ‎46676 KB
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Configuração de fonte
+            </th>
+            <td>
+              ‎Habilitado
+            </td>
+          </tr>
+          <tr>
+            <th>
+             Leitura de texto
+            </th>
+            <td>
+               Habilitado 
+            </td>
+          </tr>
+          <tr>
+            <th>
+              ASIN
+            </th>
+            <td>
+              B08DP5GT2B
+            </td>
+          </tr>
+          <tr>
+            <th>
+              ISBN-10 
+            </th>
+            <td>
+              8550815357
+            </td>
+          </tr>
+          <tr>
+            <th>
+              ISBN-13
+            </th>
+            <td>
+             978-8550815350
+            </td>
+          </tr>
+          <tr>
+            <th>
+              Avaliação dos clientes
+            </th>
+            <td>
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <div>
+      <p>Capacitação Enext 2021</p>
+      <div>
+        <img width="120" src="./assets/logo.png" alt="logo-enext">
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
