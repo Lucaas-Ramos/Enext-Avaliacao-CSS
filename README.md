@@ -1,5 +1,5 @@
 ## Desafio CSS - Capacitação Enext
-#Sobre o desafio
+# Sobre o desafio
 
 Nesse desafio, vocês terão que estilizar uma página de produto utilizando CSS. Inicialmente o repositório contém apenas o conteúdo HTML da página e algumas linhas de CSS. Vocês devem estilizar o conteúdo existente da página para torná-la mais agradável. O design é livre, o que será avaliado será a consistência do layout (se o layout não quebra, os elementos não se empilham, responsividade (mobile/desktop) e etc.). O conteúdo HTML pode ser totalmente modificado por vocês, sintam-se a vontade para excluir ou adicionar novos conteúdos. Vocês devem clonar esse repositório e trabalhar em cima do código inicial dele, quando finalizarem, devem enviar como resposta o link para o repositório individual de vocês (no Github ou Bitbucket).
 
