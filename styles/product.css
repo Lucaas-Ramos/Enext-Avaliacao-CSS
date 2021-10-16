@@ -1,3 +1,4 @@
+
 /*Estilização do header*/
 header{
   background: rgb(0, 0, 0);
@@ -10,6 +11,7 @@ body{
   font-family: 'Roboto Slab', sans-serif;
   padding:0px;
   background: linear-gradient(72deg, #805d83 1%, #ffee04 99%);
+  width: auto;
 }
 
 /*Estilização do título e descrição do produto*/
@@ -190,13 +192,14 @@ button, .button {
 }
 
 /*Responsividade da página*/
-@media (max-width:1000px){
+@media (max-width:1015px){
   .product-prices {
    text-align:center; 
-   display: inline-flex;
-   flex-direction: column; 
-   width:100%;
-   bottom: -450px;  
+   bottom: -490px; 
+   display: inline;
+   width: 100%;
+   float:left;
+   margin-left: 90px;
 }
 
   .product-buy-section {
@@ -205,8 +208,11 @@ button, .button {
     position: relative;
     left: 30%;
     top: -40%;
-    transform: translate(-65%,100%);
+    transform: translate(-65%,155%);
     box-sizing:border-box;
+    width: 100%;
+    float:left;
+    margin-left: 90px
   }
 
   .product-freight {
@@ -217,8 +223,7 @@ button, .button {
     width:100%;  
     bottom: 20px; 
     font-size: 15px;
-    
-    
+    margin-left: -20px
   }
 }
 
