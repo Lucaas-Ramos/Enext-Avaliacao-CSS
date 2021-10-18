@@ -56,6 +56,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
   transition: .6s;
+
 }
 
 .bar:hover{
@@ -71,7 +72,7 @@ input:checked, #slide1, #slide2, #slide3, #slide4, #slide5{
 .slides {
   display:flex;
   width: 500%;
-  height: 100%;  
+  height: 100%; 
 }
 
 .slide {
@@ -106,7 +107,7 @@ input:checked, #slide1, #slide2, #slide3, #slide4, #slide5{
 
 
  .product-title {
-text-align: center; 
+text-align: center;
 
 }
 .product-specifications-wrapper{
@@ -185,7 +186,7 @@ button, .button {
 #techical-details {
     box-sizing:border-box;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 2%;
     padding: 0 15px;
     text-align: center;
     position: relative;
@@ -233,10 +234,16 @@ button, .button {
   .navigation{
     position:relative; 
     bottom: -60px; 
-    display: inline-flex;
-    flex-direction: initial;
-    margin-left: auto;
-    
+    margin-right: 70%;
+    box-sizing:border-box; 
   }
+}
 
+@media (max-width: 420px){
+.content{
+  max-width:300px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+  }
 }
