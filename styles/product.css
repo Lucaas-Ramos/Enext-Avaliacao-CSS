@@ -24,7 +24,6 @@ body{
   transform: translate(-50%);
   position: relative;
 }
-
 /*Escondendo o botão de seleção e estilizando as imagens*/
 .content {
   height: 520px;
@@ -115,17 +114,18 @@ text-align: center;
   left: 50%;
   transform: translate(-50%);
 }
- 
+
+
 /*Estilização dos preços*/
 .product-prices{
   font-size: 30px;
-  padding: 0 15px;
+  box-sizing: border-box;
+  border-radius: 30px;
   text-align: center;
-  position: relative;
+  position:relative;
   left: 30%;
   bottom: 40%;
   transform: translate(-65%, -220%);
-  box-sizing:border-box;
 }
 
 /*Mudando cor do preço antigo*/
@@ -142,7 +142,6 @@ del{
   top: -40%;
   transform: translate(-65%,-460%);
   cursor: pointer;
-
 }
 
 /*Estilização do frete*/
@@ -153,6 +152,9 @@ del{
   left: 50%;
   top: -40%;
   transform: translate(-50%,-55%);
+  background: #d6b210;
+  border: rgb(0, 0, 0) solid 3px;
+  box-sizing: border-box;
 }
 
 input {
@@ -174,7 +176,7 @@ button {
 }
 
 button, .button {
-  --button: hsl(64, 96%, 46%);
+  --button: #f8c917;
   --button-border: var(--colour-black);
 }
 
@@ -191,59 +193,49 @@ button, .button {
     box-shadow: 0px 10px 13px -10px #000000, 5px 6px 40px
 }
 
-/*Responsividade da página*/
+/*Responsividade da página*/ 
 @media (max-width:1015px){
   .product-prices {
-   text-align:center; 
-   bottom: -490px; 
-   display: inline;
-   width: 100%;
-   float:left;
-   margin-left: 90px;
-}
+    padding: 0px 10px;
+    transform: translate(-30%,75%);
+    width: 100%;
+    margin-left: 0px;
+    text-align: left;
+    font-size: 25px;
+    height: auto
+  }
 
   .product-buy-section {
-    padding: 0 15px;
-    text-align: center;
-    position: relative;
-    left: 30%;
-    top: -40%;
-    transform: translate(-65%,155%);
+    padding: 0 10px;
+    top: -20%;
+    transform: translate(-30%,-20%);
     box-sizing:border-box;
     width: 100%;
-    float:left;
-    margin-left: 90px
+    float: inline-end;
+    margin-left: 0px;
+    text-align: right;
+ 
   }
 
   .product-freight {
     display: inline-flex;
     flex-direction: column;
-    text-align: right;
+    text-align: center;
     height: auto;
     width:100%;  
-    bottom: 20px; 
+    bottom: -70px; 
     font-size: 15px;
-    margin-left: -20px
   }
 }
 
 @media (max-width: 1100px){
   .navigation{
     position:relative; 
-    bottom: -100px; 
-    margin-right: 700px; 
+    bottom: -90px; 
     display: inline-flex;
     flex-direction: initial;
-    margin: auto
+    margin-left: auto;
+    
   }
 
-}
-
-@media (max-width: 425px){
-  .content{
-    margin: auto;
-    height: auto;
-    width: auto
-   
-}
 }
