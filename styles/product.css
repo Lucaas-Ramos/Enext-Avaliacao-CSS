@@ -21,7 +21,6 @@ body{
   text-align: center;
 }
 
-
 .product-brand {
   padding: 0 20px;
   text-align: center;
@@ -79,7 +78,7 @@ input:checked, #slide1, #slide2, #slide3, #slide4, #slide5{
   display:flex;
   width: 500%;
   height: 100%; 
-} 
+}
 
 .slide {
   width: 20%;
@@ -115,7 +114,6 @@ input:checked, #slide1, #slide2, #slide3, #slide4, #slide5{
 /*Estilização dos preços*/
 .product-prices{
   font-size: 30px;
-  box-sizing: border-box;
   border-radius: 30px;
   text-align: center;
   position:relative;
@@ -151,7 +149,6 @@ del{
   transform: translate(-50%, -55%);
   background: #d6b210;
   border: rgb(0, 0, 0) solid 3px;
-  box-sizing: border-box;
 }
 
 input {
@@ -210,7 +207,6 @@ button, .button {
   .product-buy-section {
     padding: 10px 10px;
     transform: translate(-30%,-20%);
-    box-sizing:border-box;
     width: 100%;
     float: inline-end;
     margin-left: 0px;
@@ -233,7 +229,6 @@ button, .button {
     position:relative; 
     top: 60px; 
     margin-right: 70%;
-    box-sizing:border-box; 
   }
 }
 
