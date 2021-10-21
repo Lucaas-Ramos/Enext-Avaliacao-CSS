@@ -79,7 +79,7 @@ input:checked, #slide1, #slide2, #slide3, #slide4, #slide5{
   display:flex;
   width: 500%;
   height: 100%; 
-}
+} 
 
 .slide {
   width: 20%;
